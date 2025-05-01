@@ -55,22 +55,23 @@ a,a:hover,a:active,a:focus {
 	padding:0;
 }
 h1,h2,h3,h4,h5,h6 { 
-	margin: 0;
+	margin: 5px;
 	color:#43485c;
-    font-size: 16px;
+    font-size: 19px;
 	font-family: 'Poppins', sans-serif;
 	text-transform: capitalize;
 }
 p {
-	margin: 0;
+	margin: 10px;
 	line-height:1.8;
-	color:#43485c;
-	font-size:14px;
+	color:</div>               
+                <div class="about-content">;
+	font-size:16px;
 	font-family: 'Poppins', sans-serif;
 }
 img{border:none;max-width:100%; height:auto;}
 ul{
-	padding: 0;
+	padding: 10px;
     margin: 0 auto;
     list-style: none;
 }
@@ -216,8 +217,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #6d071a;}
 .header-text h2 span {color: #6d071a;}
 .header-text p {
     color: #fff;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 26px;
+    font-weight: 500;
     text-transform: uppercase;
     margin: 30px 0 60px;
     letter-spacing: 1px;
