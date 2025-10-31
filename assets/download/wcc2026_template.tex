@@ -1,0 +1,43 @@
+%%% This is the template for sumissions to WCC 2026
+%%% Submissions should be written in english and be 6 to 10 pages long excluding bibliography
+%%% The font size should be 11pts
+%%% The margins should be unchanged; in particular DO NOT use the fullpage package
+%%% Avoid any layout modification such as for instance reducing the spread between lines
+\documentclass[11pt,a4paper]{article}
+
+%%% Title
+\title{The title}
+
+\usepackage{authblk}
+%%% Authors names
+\author[1]{Joanne Doe}
+\author[2]{John Doe}
+\author[3]{Someone Else}
+%%% Affiliations and emails
+\affil[1]{Some place\thanks{joanne.doe@someplace.com}}
+\affil[2,3]{Another place\thanks{\{john.doe, someone.else\}@anotherplace.com}}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Abstract here
+\end{abstract}
+
+\medskip
+
+\noindent \textbf{Key Words : } Coding theory, Cryptography.
+
+\medskip
+
+\section{Introduction}
+
+\section{Another section}
+
+
+\bibliographystyle{alpha}
+\bibliography{biblio.bib} %% Replace "biblio.bib" by the name of your .bib file
+
+
+\end{document}
