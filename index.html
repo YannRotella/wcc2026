@@ -50,6 +50,17 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+        <!-- For latex equations -->
+		<script>
+		window.MathJax = {
+		  tex: {
+		    inlineMath: [['$', '$'], ['\\(', '\\)']],
+		    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+		  }
+		};
+		</script>
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     </head>
 	
 	<body>
@@ -556,7 +567,7 @@
 								<li><strong>Linear programming for T-avoiding spherical codes</strong>, Peter Boyvalenkov, Danila Cherkashin, Peter Dragnev</li>
 								<li><strong>2-to-1 Binomials on Finite Fields of Odd Characteristic</strong>, Gohar Kyureghyan, Lucas Krompholz, Alexander Oertel</li>
 								<li><strong>On min-max polarization of sharp spherical codes that are not tight designs</strong>, Sergiy Borodachov, Peter Boyvalenkov, Peter Dragnev, Douglas Hardin, Edward Saff, Maya Stoyanova</li>
-								<li><strong>Dimensions of quantum codes from Cayley graphs over $\F_2^r$</strong>, Gabriele Taurasi, Gilles Zémor</li>
+								<li><strong>Dimensions of quantum codes from Cayley graphs over $\mathbb{F}_2^r$</strong>, Gabriele Taurasi, Gilles Zémor</li>
 								<li><strong>Rank-metric intersecting codes</strong>, Martino Borello, Martin Scotti</li>
 								<li><strong>$\mathbb{F}_{p^3}$-Frobenius nonclassical curves $y^n=f(x)$, their geometry</strong>, Giovanni Zini, Herivelto Borges, Cirilo Goncalves</li>
 								<li><strong>Central Limit Theorem for k-tuples Frequencies in Mutation Systems</strong>, Liav Koram, Ohad Elishco</li>
