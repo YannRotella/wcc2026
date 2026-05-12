@@ -1,0 +1,130 @@
+.day {
+  margin-top: 3rem;
+}
+
+.day h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.session {
+  margin-bottom: 0.4rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.session summary {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  list-style: none;
+  transition: background 0.2s ease;
+}
+
+.session summary:hover {
+  background: #eff6ff;
+}
+
+.session summary::-webkit-details-marker {
+  display: none;
+}
+
+.session-time {
+  color: #1533db;
+  font-family: monospace;
+  white-space: nowrap;
+}
+
+.session-title {
+  font-weight: 500;
+  color: #111827;
+}
+
+.session-content {
+  padding: 0 1.2rem 1.2rem;
+}
+
+.chair {
+  color: #6b7280;
+  font-size: 1.02rem;
+  margin-bottom: 0.5rem;
+}
+
+.talk {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-top: 1px solid #f1f5f9;
+}
+
+.talk-time {
+  font-family: monospace;
+  color: #1533db;
+}
+
+.talk-title {
+  font-weight: 400;
+  color: #111827;
+}
+
+.talk-authors {
+  margin-top: 0.25rem;
+  color: #6b7280;
+  font-size: 1.02rem;
+}
+
+.session.invited {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+}
+
+.session.invited summary:hover {
+  background: #dbeafe;
+}
+
+.badge {
+  display: inline-block;
+
+  margin-right: 0.5rem;
+  padding: 0.15rem 0.55rem;
+
+  border-radius: 999px;
+
+  background: #2563eb;
+  color: white;
+
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.break {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 0.4rem;
+
+  background: #f8fafc;
+
+  border: 1px dashed #d1d5db;
+  border-radius: 14px;
+
+  color: #6b7280;
+}
+
+.break .session-time {
+  color: #94a3b8;
+}
+
+.break .session-title {
+  font-weight: 300;
+}
