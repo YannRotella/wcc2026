@@ -73,6 +73,15 @@
   color: #111827;
 }
 
+.talk-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.talk-title a:hover {
+    background: #dbeafe;
+}
+
 .talk-authors {
   margin-top: 0.25rem;
   color: #6b7280;
@@ -86,6 +95,15 @@
 
 .session.invited summary:hover {
   background: #dbeafe;
+}
+
+.invited-talk a {
+    color: #6b7280;
+    text-decoration: none;
+}
+
+.invited-talk a:hover {
+    background: #bfdbfe;
 }
 
 .badge {
